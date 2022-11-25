@@ -1,0 +1,24 @@
+Crear Proyecto -> composer create-project laravel/laravel curso-laravel
+Crear Modelo -> php artisan make:model Alumno
+Crear Controllador ->  php artisan make:controller Api/UserController
+
+Crear Tablas DB ->  php artisan make:migration create_alumnos_table
+ejecutar tablas o cambios en db -> php artisan migrate 
+iniciar el Proyecto -> php artisan serve
+
+
+
+
+<---BOOTSTRAP--->
+
+instalar bootstrap(cuando tengas node.js descargado) -> npm i bootstrap --save-dev
+instalar sass -> npm i sass --save-dev
+
+resource/css/app.css -> resource/css/app.scss
+En vite.config cambias lo mismo
+
+resource/css/app.scss -> @import "bootstrap/scss/bootstrap";
+resource/js/app.js -> import * as bootstrap from "bootstrap";
+
+npm i && npm run dev
+(otra terminal) php artisan serve
